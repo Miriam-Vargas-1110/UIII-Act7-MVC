@@ -17,7 +17,7 @@ class _EditNamePageState extends State<EditNamePage> {
     nameController.text = arguments['name'];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Edit Name')),
+      appBar: AppBar(title: const Text('Editar Nombre')),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
         child: Column(
